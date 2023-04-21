@@ -1,0 +1,186 @@
+/* <!-- section social media  --> */
+#sect-social {
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+
+.w_img {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* footer-list  */
+#footer-list {
+    background-color: #00439C;
+}
+
+.w-logo {
+    width: 90px;
+}
+
+.language {
+    width: 20px;
+}
+
+.sie_w img {
+    width: 120px;
+}
+
+.f_style {
+    font-weight: 600;
+}
+
+.social{
+    width: 100%;
+    height: 374px;
+    background-color: #f5f7fa;
+}
+
+.social-content{
+   padding-top: 100px;
+}
+.text-social h3{
+    font-weight: 300;
+    text-align: center;
+}
+
+.container-social{
+    display: flex;
+    justify-content: center;
+}
+
+.container-social .img-social{
+    padding: 35px;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.assistenza-playstation {
+    width: 100%;
+    height: 256px;
+    position: relative;
+}
+
+.assistenza-playstation img {
+    width: 100%;
+    height: 256px;
+}
+
+.container-assistenza {
+    display: flex;
+    justify-content: center;
+}
+
+.titoli {
+    position: absolute;
+    top: 30px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.titoli h1 {
+    font-size: 39px;
+    font-weight: 200;
+}
+
+.titoli p {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.search-ps {
+    position: absolute;
+    top: 175px;
+}
+
+.search-ps input {
+    width: 640px;
+    height: 50px;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.search-ps input:hover{
+  outline-offset: 2px;
+  outline: 2px solid lightgrey;
+}
+
+.informazioni-importanti {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    width: 100%;
+    height: 335px;
+  }
+  
+  .informazioni-importanti .testo {
+    max-width: 588px;
+    max-height: 218px;
+    margin: 50px 50px 50px 0px;
+  }
+  
+  .informazioni-importanti .libro {
+    margin: 50px 50px 50px 0px;
+  }
+  
+  .informazioni-importanti .testo h3 {
+    font-weight: 200;
+    font-size: 30px;
+  }
+  
+  .informazioni-importanti .testo p {
+    font-weight: 300;
+  }
+  
+  .informazioni-importanti .testo a {
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .informazioni-importanti .testo a:hover {
+    text-decoration: underline;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 30px;
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: center;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 15px;
+    color: blue;
+    width: 256px;
+    height: 148px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .grid-item:hover{
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: blue;
+    outline-width: thin;
+  }
+
+
+  .grid-item p{
+    margin-block-start: -5px;
+  }
